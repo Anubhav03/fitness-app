@@ -20,7 +20,7 @@
             border: none;
             background: #f1f1f1;
         }
-        button {
+      input[type=submit] {
             background-color: black;
             color: white;
             padding: 14px 20px;
@@ -32,5 +32,16 @@
         }
         button:hover {
             opacity:1;
+        }
+
+        a button{
+            background-color: black;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            opacity: 0.9;
         }
  
