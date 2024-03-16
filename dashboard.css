@@ -18,26 +18,26 @@ h2 {
     color: #444;
 }
 h3 {
-    color: black;
+    color: rgb(25, 25, 26);
 }
 .btn {
     background: lightgreen;
-    color: black;
+    color: rgb(25, 25, 26);
     padding: 5px 10px;
     text-align: center;
 }
 .btn:hover {
     color: lightgreen;
-    background: black;
+    background: rgb(25, 25, 26);
     padding: 3px 8px;
-    border: 2px solid black;
+    border: 2px solid rgb(25, 25, 26);
 }
 .title {
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding: 15px 10px;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid rgb(25, 25, 26);
 }
 table {
     padding: 10px;
@@ -49,7 +49,7 @@ td {
 }
 .side-menu {
     position: fixed;
-    background:lightgreen;
+    background:rgb(25, 25, 26);
     width: 20vw;
     min-height: 100vh;
     display: flex;
@@ -60,6 +60,7 @@ td {
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 .side-menu li {
     font-size: 24px;
@@ -85,7 +86,7 @@ td {
     right: 0;
     width: 80vw;
     height: 10vh;
-    background: black;
+    background: rgb(25, 25, 26);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -146,7 +147,7 @@ td {
     position: relative;
     margin-top: 10vh;
     min-height: 90vh;
-    background: black;
+    background: rgb(25, 25, 26);
 }
 .container .content .cards {
     padding: 20px 15px;
@@ -258,4 +259,9 @@ td {
 
 .card-description p {
     color: #555;
+}
+
+.brand-name h1
+{
+ color:  rgb(94, 250, 94);;
 }
